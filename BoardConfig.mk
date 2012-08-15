@@ -40,7 +40,7 @@ TARGET_PREBUILT_KERNEL := device/htc/pyramid/prebuilt/kernel
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := pyramid
 
 # RIL
-BOARD_PROVIDES_LIBRIL := true
+BOARD_USES_LEGACY_RIL := true
 
 # Wifi
 WIFI_DRIVER_MODULE_NAME          := bcmdhd
